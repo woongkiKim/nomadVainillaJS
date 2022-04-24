@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>peter's App</title>
+  </head>
+  <body>
+    <h3 id="clock">현재시간</h3>
+    <form class="hidden" id="loginForm">
+      <input required maxlength="15" type="text" placeholder="What is your name?" />
+      <input type="submit" value="로그인" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+      <input size="40" type="text" placeholder="앞으로 할 일을 작성하시고 Enter를 눌러주세요." required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="weather">
+      <span></span>
+      <span>&nbsp</span>
+      <span></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <!-- <script src="js/quotes.js"></script> -->
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
